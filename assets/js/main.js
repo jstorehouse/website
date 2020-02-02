@@ -25,6 +25,7 @@ $(function() {
 /* Open Podcast Listen Method Overlay and Set Links */
 function openConferences() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
+	document.getElementById("overlay-text").innerHTML = "Conferences";
 	document.getElementById("overlay-image").src="images/thumbs/conferences.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/conferences/id1209780360";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81OTQ5OTdjL3BvZGNhc3QvcnNz";
@@ -34,6 +35,7 @@ function openConferences() {
 }
 function openYP() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
+	document.getElementById("overlay-text").innerHTML = "Young People";
 	document.getElementById("overlay-image").src="images/thumbs/young-people.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/young-people/id1427499636";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81YWE0MWEwL3BvZGNhc3QvcnNz";
@@ -43,6 +45,7 @@ function openYP() {
 }
 function openQR() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
+	document.getElementById("overlay-text").innerHTML = "Q&R";
 	document.getElementById("overlay-image").src="images/thumbs/q-and-r.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/question-response/id1449870585";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy84NGM0ODA0L3BvZGNhc3QvcnNz";
@@ -52,6 +55,7 @@ function openQR() {
 }
 function openSpecialFellowship() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
+	document.getElementById("overlay-text").innerHTML = "Special Fellowship";
 	document.getElementById("overlay-image").src="images/thumbs/special-fellowship.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/special-fellowship/id1431897011";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy82ODBkNjBjL3BvZGNhc3QvcnNz";
@@ -61,6 +65,7 @@ function openSpecialFellowship() {
 }
 function openTestimonies() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
+	document.getElementById("overlay-text").innerHTML = "Testimonies";
 	document.getElementById("overlay-image").src="images/thumbs/testimonies.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/testimonies/id1422397926";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81OGEyODBjL3BvZGNhc3QvcnNz";
@@ -70,6 +75,7 @@ function openTestimonies() {
 }
 function openExcerpts() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
+	document.getElementById("overlay-text").innerHTML = "Excerpts";
 	document.getElementById("overlay-image").src="images/thumbs/excerpts.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/excerpts/id1451629498";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy84ZjExMzIwL3BvZGNhc3QvcnNz";
@@ -79,6 +85,7 @@ function openExcerpts() {
 }
 function openCollege() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
+	document.getElementById("overlay-text").innerHTML = "College Students";
 	document.getElementById("overlay-image").src="images/thumbs/college.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/college-students/id1430890080";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy82N2I4Yzg4L3BvZGNhc3QvcnNz";
@@ -88,6 +95,7 @@ function openCollege() {
 }
 function openArchive() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
+	document.getElementById("overlay-text").innerHTML = "Archive";
 	document.getElementById("overlay-image").src="images/thumbs/archive.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/archive/id1451979597";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy85MTViOWYwL3BvZGNhc3QvcnNz";
@@ -97,6 +105,7 @@ function openArchive() {
 }
 function openMessageOfDay() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
+	document.getElementById("overlay-text").innerHTML = "Message of the Day";
 	document.getElementById("overlay-image").src="images/thumbs/message-of-day.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/message-of-the-day/id1496234101";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xMmZkMTk2OC9wb2RjYXN0L3Jzcw==";
@@ -106,6 +115,7 @@ function openMessageOfDay() {
 }
 function openStories() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
+	document.getElementById("overlay-text").innerHTML = "Stories";
 	document.getElementById("overlay-image").src="images/thumbs/stories.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/stories/id1453722255";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy85NGVkMzg0L3BvZGNhc3QvcnNz";
