@@ -2198,9 +2198,26 @@
   overflow-y: hidden;
 }
 
+	.overlay h1 {
+		border: none;
+	  padding: 8px;
+	  text-decoration: none;
+	  font-size: 36px;
+	  color: rgba(255,255,255, 1);
+		/* margin-bottom: 0px; */
+		margin-bottom: 1em;
+	}
+
+	.overlay img {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 2em;
+	}
+
 	.overlay a {
 		border: none;
 	  padding: 8px;
+		padding-top: 2px;
 	  text-decoration: none;
 	  font-size: 36px;
 	  color: rgba(255,255,255, 0.5);
