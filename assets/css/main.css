@@ -2168,10 +2168,16 @@
 
 #email {
 	border-radius: 0px;
-	/* border: none; */
 	border-color: rgba(0, 0, 0, 0.2);
 	border-width: 0.2px;
 	margin-bottom: 10px;
+}
+@media screen and (max-width: 980px) {
+	#email {
+		border-color: rgba(0, 0, 0, 0.2);
+		border-width: 0.9px;
+		margin-bottom: 10px;
+	}
 }
 
 
