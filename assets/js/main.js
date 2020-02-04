@@ -114,7 +114,7 @@ function openArchive() {
 function openMessageOfDay() {
 	document.getElementById("pick-podcast-method").style.height = "100%";
 	document.getElementById("overlay-text").innerHTML = "Message of the Day";
-	document.getElementById("overlay-description").innerHTML = "Daily audio from Joseph's storehouses";
+	document.getElementById("overlay-description").innerHTML = "Daily audio from Joseph's Storehouses";
 	document.getElementById("overlay-image").src="images/thumbs/message-of-day.jpg";
 	document.getElementById("apple-podcast-link").href="https://podcasts.apple.com/us/podcast/message-of-the-day/id1496234101";
 	document.getElementById("google-podcast-link").href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xMmZkMTk2OC9wb2RjYXN0L3Jzcw==";
