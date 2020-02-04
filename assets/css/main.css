@@ -2140,22 +2140,22 @@
 
 
 		#mc-embedded-subscribe {
-		    font-size: 13px;
-		    border: none;
-		    -webkit-border-radius: 0px;
-		    -moz-border-radius: 0px;
-		    border-radius: 0px;
-		    letter-spacing: .03em;
-		    color: #fff;
-		    background-color: rgba(0, 0, 0, 0.65);
-		    box-sizing: border-box;
-		    height: 32px;
-		    line-height: 32px;
-		    padding: 0 18px;
-		    display: inline-block;
-		    margin: 0;
-		    transition: all 0.2s ease;
-				text-align: center;
+	    font-size: 13px;
+	    border: none;
+	    -webkit-border-radius: 0px;
+	    -moz-border-radius: 0px;
+	    border-radius: 0px;
+	    letter-spacing: .03em;
+	    color: #fff;
+	    background-color: rgba(0, 0, 0, 0.65);
+	    box-sizing: border-box;
+	    height: 32px;
+	    line-height: 32px;
+	    padding: 0 18px;
+	    display: inline-block;
+	    margin: 0;
+	    transition: all 0.2s ease;
+			text-align: center;
 		}
 
 			#mc-embedded-subscribe:hover {
@@ -2179,6 +2179,17 @@
 	    margin: 0;
 	    width: 350px;
 	    vertical-align: top;
+	}
+
+	@media screen and (max-width: 480px) {
+		#mc-embedded-subscribe {
+    	width: 100%;
+    	margin: 0;
+		}
+		#mce-EMAIL {
+	    width: 100%;
+			margin-bottom: 5px;
+		}
 	}
 
 		#header .avatar {
