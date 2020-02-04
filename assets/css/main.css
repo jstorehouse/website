@@ -2139,9 +2139,9 @@
 		}
 
 
-		#mc_embed_signup .button {
-		    /* font-size: 13px;
-		    border: none; */
+		#mc-embedded-subscribe {
+		    font-size: 13px;
+		    border: none;
 		    -webkit-border-radius: 0px;
 		    -moz-border-radius: 0px;
 		    border-radius: 0px;
@@ -2158,13 +2158,13 @@
 				text-align: center;
 		}
 
-			#mc_embed_signup .button:hover {
+			#mc-embedded-subscribe:hover {
 				transform: scale(1.05);
 				cursor: pointer;
 				background-color: #000;
 			}
 
-		#mc_embed_signup input.email {
+		#mce-EMAIL {
 	    font-size: 15px;
 	    border: 1px solid #ABB0B2;
 	    -webkit-border-radius: 0px;
