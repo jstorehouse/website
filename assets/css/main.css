@@ -2258,6 +2258,30 @@
 		margin-bottom: 1em;
 	}
 
+	.overlay p {
+		color: rgb(255, 255, 255, 0.75);
+		font-style: italic;
+		width: 20%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	@media screen and (max-width: 980px) {
+			.overlay p {
+				width: 40%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	@media screen and (max-width: 480px) {
+			.overlay p {
+				width: auto;
+				margin-left: 2em;
+				margin-right: 2em;
+
+			}
+		}
+
+
 	.overlay img {
 		width: 100px;
 		height: 100px;
@@ -2269,7 +2293,7 @@
 	  padding: 8px;
 		padding-top: 2px;
 	  text-decoration: none;
-	  font-size: 36px;
+	  font-size: 30px;
 	  color: rgba(255,255,255, 0.5);
 	  display: block;
 	  transition: 0.3s;
