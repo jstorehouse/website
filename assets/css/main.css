@@ -2315,11 +2315,11 @@
 }
 	#quote-reference {
 		text-align: right;
+		padding-bottom: 4em;
 	}
 	#footer-quote p {
 		margin-left: 5em;
 		margin-right: 5em;
-
 		color: rgba(0,0,0, 0.6);
 		font-style: italic;
 	}
