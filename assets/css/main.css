@@ -2140,6 +2140,7 @@
 
 
 		#mc-embedded-subscribe {
+			-webkit-appearance: none;
 	    font-size: 13px;
 	    border: none;
 	    -webkit-border-radius: 0px;
