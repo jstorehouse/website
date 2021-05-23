@@ -1,0 +1,205 @@
+/* Basics */
+html,
+
+body {
+    background-color: #000 !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Navbar */
+.uk-navbar-container {
+    height: 50px;
+    background-color: rgb(50, 50, 52) !important;
+}
+
+.uk-navbar-nav>* {
+    height: 55px;
+}
+
+.uk-navbar-nav>li>a {
+    min-height: 55px !important;
+    color: white !important;
+    text-transform: none !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    font-size: 15px !important;
+}
+
+.uk-navbar-nav>li>a>img {
+    filter: invert(100%) !important;
+    height: 15px;
+    width: 15px;
+}
+
+/* Buttons */
+button {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 70px;
+    border: none;
+    padding-left: 30px;
+    font-size: 18px;
+    margin: 0px !important;
+    text-align: left;
+    cursor: pointer;
+}
+
+button:hover,
+button:active {
+    background-color: rgba(50, 50, 52, 1) !important;
+}
+
+button:focus {
+    outline: none;
+}
+
+.top_button {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    height: 50px;
+    padding: 0px;
+    background-color: rgb(50, 50, 52, 1.0);
+    color: white;
+    cursor: default;
+}
+
+.bible-button-icon {
+    filter: invert(100%);
+}
+
+/* Grid */
+.collapsible {
+    margin-top: 10px;
+}
+
+.collapsible>img {
+    float: right;
+    margin-right: 20px;
+    height: 15px;
+    width: 15px;
+    transition: .1s ease transform;
+}
+
+.collapsible.active img {
+    transform: rotate(90deg);
+}
+
+/* Grid Cards */
+.uk-card {
+    background-color: #000 !important;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.chapter-buttons {
+    display: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    opacity: 0;
+    padding: 10px 0 10px 0;
+    transition: .3s ease-in-out opacity, .3s ease-in-out transform;
+    cursor: pointer;
+}
+
+.chapter-buttons .uk-card:hover {
+    background-color: rgba(50, 50, 52, 1) !important;
+}
+
+.chapter-buttons .uk-card-body {
+    padding: 20px 20px !important;
+}
+
+/* Text Layout */
+.bible-text {
+    margin: 20px;
+    color: #fff;
+}
+
+.bible-text>p {
+    margin-bottom: 10px;
+}
+
+.bible-text>h4 {
+    font-weight: bold;
+    color: #fff;
+}
+
+#copyright {
+    text-align: center;
+    margin: 10px auto;
+    display: table;
+    font-size: 12px;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    #copyright {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Copyright Fade */
+.fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
